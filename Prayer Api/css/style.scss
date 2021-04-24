@@ -1,0 +1,127 @@
+$mainColor: #067737;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+.image {
+    img {
+        width: 60%;
+        height: 18em;
+    }
+}
+.leftPart {
+    position: fixed !important;
+    .calendar {
+        width: 60%;
+        p {
+            margin: auto;
+            padding-top: 20%;
+            font-size: 1.2em;
+            color: $mainColor;
+            text-align: center;
+            i {
+                padding-top: 12%;
+                font-size: 2em;
+            }
+        }
+
+        .select {
+            height: 16em;
+        }
+        border: 3px solid #184320;
+        height: 20em;
+        border-top: none;
+        border-radius: 5%;
+        li {
+            padding-left: 1em;
+            color: $mainColor;
+            &:first-child {
+                text-align: center;
+            }
+        }
+        form {
+            input {
+                border-color: $mainColor;
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+            #show {
+                color: $mainColor;
+                border-color: $mainColor;
+            }
+        }
+    }
+}
+
+.Prayer_rules {
+    margin-top: 5%;
+    .menu_header {
+        border: 1px solid $mainColor;
+        ul {
+            margin: 0;
+            display: flex;
+            li {
+                background-color: #00b526;
+                display: inline;
+                color: white;
+                font-size: 1vw;
+                letter-spacing: 1px;
+                border-right: #03822f 1px solid;
+                padding: 1em;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .menu_body {
+        height: 10em;
+        .frontier {
+            border: 1.5px solid #067737;
+            color: #005011;
+            border-top: none;
+            table {
+                width: 100%;
+                tr {
+                    vertical-align: baseline;
+                    &.attention {
+                        border-top: 1px dashed $mainColor;
+                    }
+                    td {
+                        width: 33.33%;
+                        p {
+                            width: 80%;
+                            text-align: justify;
+                        }
+                    }
+                }
+            }
+            table {
+                tr {
+                    width: 33.33%;
+                }
+            }
+        }
+    }
+}
+
+.active {
+    display: block;
+    background-color: #007c00 !important;
+}
+
+@media only screen and (max-width: 992px) {
+    .Prayer_calendar {
+        display: flex;
+        justify-content: center;
+        .leftPart {
+            position: static !important;
+            margin: auto;
+        }
+    }
+}

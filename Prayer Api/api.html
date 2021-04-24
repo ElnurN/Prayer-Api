@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Namaz vaxtları</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="Prayer_calendar col-12 col-sm-12 col-lg-4  mt-3">
+                    <div class="leftPart">
+                        <div class="image">
+                            <img src="img/titleimage.jpg" alt="">
+                        </div>
+                        <div class="calendar ">
+                            <div class="select" id="select">
+                                <p id="anounce"><b>Namaz vaxlarını görmək <br> üçün tarix seçin <br>
+                                        <i class="fas fa-arrow-down"></i></b>
+                                </p>
+                            </div>
+                            <form action="#">
+                                <div class="col-auto">
+                                    <div class="input-group mb-2">
+                                        <input type="date" class="form-control" id="calendarDate">
+                                        <div class="input-group-prepend">
+                                            <button id="show"><i class="fas fa-search pl-2 pr-2"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="Prayer_rules col-12 col-sm-12 col-lg-8">
+                    <div class="menu_header">
+                        <ul>
+                            <li data-index="1" class="active"><b>Azan</b></li>
+                            <li data-index="4"><b>Namazın qılınma qaydası</b></li>
+                            <li data-index="7"><b>Günlük zikirlər</b></li>
+                        </ul>
+                    </div>
+                    <div class="menu_body">
+                        <div data-index="1" class="frontier ">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th class="pl-4 pt-3"><strong>Azan</strong></th>
+                                        <th class="pl-4"><strong>İqamə</strong></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="pl-4 pt-3">
+                                            <ul>
+                                                <li><b>Allahu Əkbər, Allahu Əkbər</b></li>
+                                                <li><b>Allahu Əkbər, Allahu Əkbər</b></li>
+                                                <li><b>Əşhədu ən-la iləhə iləllah</b></li>
+                                                <li><b>Əşhədu ən-la iləhə iləllah</b></li>
+                                                <li><b>Əşhədu ənnə Muhammədən Rəsulallah</b></li>
+                                                <li><b>Əşhədu ənnə Muhammədən Rəsulallah</b></li>
+                                                <li><b>Əşhədu ənnə Əliyyən vəliyullah</b></li>
+                                                <li><b>Əşhədu ənnə Əliyyən vəliyullah</b></li>
+                                                <li><b>Həyyə aləs-səlah</b></li>
+                                                <li><b>Həyyə aləs-səlah</b></li>
+                                                <li><b>Həyyə aləl-fəlah</b></li>
+                                                <li><b>Həyyə aləl-fəlah</b></li>
+                                                <li><b>Həyyə əla xəyril əməl</b></li>
+                                                <li><b>Həyyə əla xəyril əməl</b></li>
+                                                <li><b>Allahu Əkbər, Allahu Əkbər</b></li>
+                                                <li><b>Lə iləhə illəllah</b></li>
+                                                <li><b>Lə iləhə illəllah</b></li>
+                                            </ul>
+                                        </td>
+                                        <td class="pl-4">
+                                            <ul>
+                                                <li><b>Allahu Əkbər, Allahu Əkbər</b></li>
+                                                <li><b>Əşhədu ən-la iləhə iləllah</b></li>
+                                                <li><b>Əşhədu ən-la iləhə iləllah</b></li>
+                                                <li><b>Əşhədu ənnə Muhammədən Rəsulallah</b></li>
+                                                <li><b>Əşhədu ənnə Muhammədən Rəsulallah</b></li>
+                                                <li><b>Əşhədu ənnə Əliyyən vəliyullah</b></li>
+                                                <li><b>Əşhədu ənnə Əliyyən vəliyullah</b></li>
+                                                <li><b>Həyyə aləs-səlah</b></li>
+                                                <li><b>Həyyə aləs-səlah</b></li>
+                                                <li><b>Həyyə aləl-fəlah</b></li>
+                                                <li><b>Həyyə aləl-fəlah</b></li>
+                                                <li><b>Həyyə əla xəyril əməl</b></li>
+                                                <li><b>Həyyə əla xəyril əməl</b></li>
+                                                <li><b>Qəd qamətis-səlah</b></li>
+                                                <li><b>Qəd qamətis-səlah</b></li>
+                                                <li><b>Allahu Əkbər, Allahu Əkbər</b></li>
+                                                <li><b>Lə iləhə illəllah</b></li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div data-index="4" class="frontier d-none pl-3">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th class="pb-3 pt-2">Namazın qılınma ardıcıllığı</th>
+                                        <th>Namazın sözləri</th>
+                                        <th>Namazın qılınması (şəkillərlə)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <h6><b>2 rükətli namaz <br> (Sübh namazı)</b></h6>
+                                            <ul>
+                                                <li>1. Niyyət</li>
+                                                <li>2. Təkbir</li>
+                                                <li>3. Fatihə və İxlas surəsi</li>
+                                                <li>4. Rüku</li>
+                                                <li>5. Səcdə (2 dəfə)</li>
+                                                <li>6. Fatihə və İxlas surəsi</li>
+                                                <li>7. Qunut</li>
+                                                <li>8. Rüku</li>
+                                                <li>9. Səcdə (2 dəfə)</li>
+                                                <li>10. Təşəhhüd və Salamlar</li>
+                                            </ul>
+                                            <h6><b>3 rükətli namaz <br> (Şam namazı)</b></h6>
+                                            <ul>
+                                                <li>1. Niyyət</li>
+                                                <li>2. Təkbir</li>
+                                                <li>3. Fatihə və İxlas surəsi</li>
+                                                <li>4. Rüku</li>
+                                                <li>5. Səcdə (2 dəfə)</li>
+                                                <li>6. Fatihə və İxlas surəsi</li>
+                                                <li>7. Qunut</li>
+                                                <li>8. Rüku</li>
+                                                <li>9. Səcdə (2 dəfə)</li>
+                                                <li>10. Təşəhhüd</li>
+                                                <li>11. Təşbihati ərbəə (3 dəfə)</li>
+                                                <li>12. Rüku</li>
+                                                <li>13. Səcdə (2 dəfə)</li>
+                                                <li>14. Təşəhhüd və Salamlar</li>
+                                            </ul>
+                                            <h6><b>4 rükətli namaz <br> (Zöhr, Əsr, İşa namazı)</b></h6>
+                                            <ul>
+                                                <li>1. Niyyət</li>
+                                                <li>2. Təkbir</li>
+                                                <li>3. Fatihə və İxlas surəsi</li>
+                                                <li>4. Rüku</li>
+                                                <li>5. Səcdə (2 dəfə)</li>
+                                                <li>6. Fatihə və İxlas surəsi</li>
+                                                <li>7. Qunut</li>
+                                                <li>8. Rüku</li>
+                                                <li>9. Səcdə (2 dəfə)</li>
+                                                <li>10. Təşəhhüd</li>
+                                                <li>11. Təşbihati ərbəə (3 dəfə)</li>
+                                                <li>12. Rüku</li>
+                                                <li>13. Səcdə (2 dəfə)</li>
+                                                <li>14. Təşbihati ərbəə (3 dəfə)</li>
+                                                <li>12. Rüku</li>
+                                                <li>13. Səcdə (2 dəfə)</li>
+                                                <li>14. Təşəhhüd və Salamlar</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <h6><b>Fatihə surəsi:</b></h6>
+                                            <ul>
+                                                <li>Bismillâhir Rahmənir Rahim</li>
+                                                <li>Əlhəmdu lillahi Rabbil-âlemin</li>
+                                                <li>Ər-rehmənir rehim</li>
+                                                <li>Məliki youmiddin</li>
+                                                <li>İyyəkə nə'budu və İyyəkə nəstəin</li>
+                                                <li>İhdinas siratal mustəqim</li>
+                                                <li>Siratal ləzinə ən'əmtə aleyhim</li>
+                                                <li>Ğayrli məğzubi aleyhim vələzzallin</li>
+                                            </ul>
+                                            <h6><b>İxlas surəsi:</b></h6>
+                                            <ul>
+                                                <li>Bismillahir-rəhmanir-rəhim</li>
+                                                <li>Qul huvəllahu əhəd</li>
+                                                <li>Allahus-saməd</li>
+                                                <li>Ləm yəlid və ləm yuləd</li>
+                                                <li>Və ləm yəkun ləhu kufuvən əhəd</li>
+                                            </ul>
+                                            <h6><b>Təşəhhüd:</b></h6>
+                                            <p>Əlhəmdu lillah.
+                                                Əşhədu ənla ilahə illəllah, vəhdəhu la şərikə ləh.
+                                                Və əşhədu ənnə Muhəmmədən abduhu rəsuluh.
+                                                Allahummə salli əla Muhəmmədin və ali Muhəmməd.</p>
+                                            <h6><b>Salamlar:</b></h6>
+                                            <p>
+                                                Əssəlamu əleykə əyyuhən-nəbiyyu və rəhmətullahi və bərəkatuh.
+                                                Əssəlamu əleyna və əla ibadillahis-salihin.
+                                                Əssəlamu əleykum və rəhmətullahi və bərəkatuh.
+                                            </p>
+                                            <h6><b>Təşbihati ərbəə:</b></h6>
+                                            <p>
+                                                Subhanəllahi vəlhəmdulillahi və la ilahə illəllahi vallahu Əkbər (3
+                                                dəfə).
+                                            </p>
+                                            <p><b>Niyyət: </b> &#x3c;&#x3c;.....&#x3e;&#x3e; namazı qılıram vacib
+                                                qurbətən iləllah</p>
+                                            <p><b>Təkbir: </b> Allahu Əkbər</p>
+                                            <p><b>Rüku: </b> Sübhanallah (3 dəfə)</p>
+                                            <p><b>Səcdə: </b> Sübhanallah (3 dəfə)</p>
+                                            <p><b>Qunut: </b> Allahummə səlli əla Muhəmmədin və Ali-Muhəmməd. (3 dəfə)
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <h6><b>Qiyam</b></h6>
+                                            <img src="img/Qiyam.png" alt="">
+                                            <h6><b>Rüku</b></h6>
+                                            <img src="img/Ruku.png" alt="">
+                                            <h6><b>Səcdə</b></h6>
+                                            <img src="img/secde.png" alt="">
+                                            <h6><b>Qunut</b></h6>
+                                            <img src="img/Qunut.png" alt="">
+                                            <h6><b>Təşəhhüd və salamlar</b></h6>
+                                            <img src="img/Salamlar.png" alt="">
+
+                                        </td>
+                                    </tr>
+                                    <tr class="attention">
+                                        <td colspan="3">
+                                            <h6 class="pt-3"><b>Diqqət</b></h6>
+                                            <ul>
+                                                <li>1. Bu əməllərin cəminə <b>rükət </b> deyilir. Fatihə surəsi + İxlas
+                                                    surəsi + rüku + 2 dəfə.</li>
+                                                <li>2. Təşbihati ərbəə <b>3-cü və 4-cü rükətdə Fatihə surəsinin </b>
+                                                    əvəzinə deyilir.</li>
+                                                <li>3. Sübh namazının qılınma vaxtı dan yeri söküləndən günəş çıxana
+                                                    qədərdir.</li>
+                                                <li>4. Zöhr və Əsr namazlarının qılınma vaxtı günortadan gün batana
+                                                    qədərdir.</li>
+                                                <li>5. Şam və Xiftən namazlarının qılınma vaxtı gün batandan gecə
+                                                    yarısına qədərdir.</li>
+                                                <li>6. Səcdə zamanı alının möhür <b>(və ya torpaq, daş və bu kimi
+                                                        şeylərin) </b>üzərində olması vacibdir.</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div data-index="7" class="daily frontier pl-3 pt-3 d-none">
+                            <ul>
+                                <li>1-ci gün: <b>Ya Qadyəl hacət</b></li>
+                                <li>2-ci gün: <b>Ya Ərhəmər-rahimin</b></li>
+                                <li>3-cü gün: <b>Ya Həyyu ya Qəyyum</b></li>
+                                <li>4-cü gün: <b>La ilahə illəllahul məlikul haqqul mubin</b></li>
+                                <li>5-ci gün: <b>Allahummə səlli alə Muhəmmədin və ali Muhəmməd əccil fərəcəhum</b></li>
+                                <li>6-cı gün: <b>Ya Rəbbəl aləmin</b></li>
+                                <li>7-ci gün: <b>Ya zəl cəlali vəl ikram</b></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/937d55813d.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
+</html>

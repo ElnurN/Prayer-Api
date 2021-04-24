@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.image img {
+  width: 60%;
+  height: 18em;
+}
+
+.leftPart {
+  position: fixed !important;
+}
+.leftPart .calendar {
+  width: 60%;
+  border: 3px solid #184320;
+  height: 20em;
+  border-top: none;
+  border-radius: 5%;
+}
+.leftPart .calendar p {
+  margin: auto;
+  padding-top: 20%;
+  font-size: 1.2em;
+  color: #067737;
+  text-align: center;
+}
+.leftPart .calendar p i {
+  padding-top: 12%;
+  font-size: 2em;
+}
+.leftPart .calendar .select {
+  height: 16em;
+}
+.leftPart .calendar li {
+  padding-left: 1em;
+  color: #067737;
+}
+.leftPart .calendar li:first-child {
+  text-align: center;
+}
+.leftPart .calendar form input {
+  border-color: #067737;
+}
+.leftPart .calendar form input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.leftPart .calendar form #show {
+  color: #067737;
+  border-color: #067737;
+}
+
+.Prayer_rules {
+  margin-top: 5%;
+}
+.Prayer_rules .menu_header {
+  border: 1px solid #067737;
+}
+.Prayer_rules .menu_header ul {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.Prayer_rules .menu_header ul li {
+  background-color: #00b526;
+  display: inline;
+  color: white;
+  font-size: 1vw;
+  letter-spacing: 1px;
+  border-right: #03822f 1px solid;
+  padding: 1em;
+}
+.Prayer_rules .menu_header ul li:hover {
+  cursor: pointer;
+}
+.Prayer_rules .menu_body {
+  height: 10em;
+}
+.Prayer_rules .menu_body .frontier {
+  border: 1.5px solid #067737;
+  color: #005011;
+  border-top: none;
+}
+.Prayer_rules .menu_body .frontier table {
+  width: 100%;
+}
+.Prayer_rules .menu_body .frontier table tr {
+  vertical-align: baseline;
+}
+.Prayer_rules .menu_body .frontier table tr.attention {
+  border-top: 1px dashed #067737;
+}
+.Prayer_rules .menu_body .frontier table tr td {
+  width: 33.33%;
+}
+.Prayer_rules .menu_body .frontier table tr td p {
+  width: 80%;
+  text-align: justify;
+}
+.Prayer_rules .menu_body .frontier table tr {
+  width: 33.33%;
+}
+
+.active {
+  display: block;
+  background-color: #007c00 !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .Prayer_calendar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .Prayer_calendar .leftPart {
+    position: static !important;
+    margin: auto;
+  }
+}/*# sourceMappingURL=style.css.map */
